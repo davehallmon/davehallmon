@@ -57,6 +57,14 @@ The goal is not always to make a problem simpler. It is to question, revise, ref
 </tr>
 </table>
 
+## Building in public
+
+A small snapshot of the work behind the ideas.
+
+<picture>
+  <img src="profile/stats.svg" alt="GitHub activity" width="100%">
+</picture>
+
 ---
 
 ## Let's discover our unknown unknowns together.
