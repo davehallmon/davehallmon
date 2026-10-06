@@ -16,6 +16,18 @@ We question assumptions. Change perspectives. Expose disagreements. Generate alt
 
 Sometimes we ask the wrong question. Sometimes we miss another perspective. Sometimes two reasonable ways of thinking lead to different places. Sometimes what matters most is the thing we have not thought to ask.
 
+## Why [NOVACULA](https://doi.org/10.1093/brain/awac159)?
+
+A razor can cut things away. A scribe's *novacula* did something more interesting: it made revision possible.
+
+Medieval writers used scraping knives to remove mistakes from parchment and continue the work. A 2022 essay in *Brain* proposes this as another way to understand Ockham's razor: not as a call for simplicity, but as a tool for updating, amending, and evaluating ideas.
+
+That interpretation fits OCCAMI.
+
+The goal is not always to make a problem simpler. It is to question, revise, reframe, and improve how we are thinking about it.
+
+**[Read the essay →](https://doi.org/10.1093/brain/awac159)**
+
 ## Skills
 
 <table>
