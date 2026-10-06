@@ -24,7 +24,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: '{"username":"davehallmon","custom_title":"GitHub activity","show_icons":true,"hide_rank":true,"include_all_commits":true,"show":"all_time_contribs","contribs_include_own_repos":true,"title_color":"F2501D","icon_color":"F2501D","bg_color":"00000000","text_color_light":"24292F","text_color_dark":"F0F6FC","hide_border":true,"border_radius":2,"disable_animations":true,"number_format":"long","card_width":760}'
+          options: '{"username":"davehallmon","custom_title":"GitHub activity","show_icons":true,"hide_rank":true,"include_all_commits":true,"hide":"stars,issues,contribs","show":"all_time_contribs","contribs_include_own_repos":true,"title_color":"F2501D","icon_color":"F2501D","bg_color":"00000000","text_color_light":"24292F","text_color_dark":"F0F6FC","hide_border":true,"border_radius":2,"disable_animations":true,"number_format":"long","card_width":760}'
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
