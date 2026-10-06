@@ -61,15 +61,70 @@ The goal is not always to make a problem simpler. It is to question, revise, ref
 
 Not built yet, and the names may change. Each one has to pass the same test before it ships: **does it help you revise your thinking, or does it only tell you that you are wrong?** If it only does the second, it becomes a mode inside an existing Skill, not a new one.
 
-| | Skill | Question | What it will do |
-|---|---|---|---|
-| <img src="assets/card-evaluation-lens.png" alt="evaluation-lens" width="220"> | **evaluation-lens** | How good is this draft, and how would I improve it? | Freezes your draft, scores it against a rubric built from your purpose, and hands you a revision roadmap before it changes a word. |
-| <img src="assets/card-bias-lens.png" alt="bias-lens" width="220"> | **bias-lens** | What is steering my thinking? | Flags the biases a situation invites, and says plainly when it finds none. |
-| <img src="assets/card-model-lens.png" alt="model-lens" width="220"> | **model-lens** | Which mental model fits, and where does it stop working? | Matches your situation to a mental model, labels what kind of claim it is (law, regularity, heuristic, metaphor), and warns when you stretch it too far. |
-| <img src="assets/card-expert-lens.png" alt="expert-lens" width="220"> | **expert-lens** | How would experts who disagree argue this? | Three archetypes cross-examine one idea. |
-| <img src="assets/card-failure-lens.png" alt="failure-lens" width="220"> | **failure-lens** | How might this fail? | Assumes the plan has already collapsed and traces the internal causes back to today's decisions. |
-| <img src="assets/card-fluency-lens.png" alt="fluency-lens" width="220"> | **fluency-lens** | Is the way I work with AI ready for what comes next? | Audits an AI-assisted workflow against six Ds and sets a 30-day change. |
-| | **other-minds-lens** | How would someone with different incentives see this? | Reasons from another party's incentives, information, and constraints. Optional, and built last. |
+<table>
+<tr>
+<td width="42%" valign="top">
+  <img src="assets/card-evaluation-lens.png" alt="evaluation-lens" width="100%">
+</td>
+<td width="58%" valign="top">
+  <h3>evaluation-lens</h3>
+  <p><strong>How good is this draft, and how would I improve it?</strong></p>
+  <p>Freezes your draft, scores it against a rubric built from your purpose, and hands you a revision roadmap before it changes a word.</p>
+</td>
+</tr>
+<tr>
+<td width="42%" valign="top">
+  <img src="assets/card-bias-lens.png" alt="bias-lens" width="100%">
+</td>
+<td width="58%" valign="top">
+  <h3>bias-lens</h3>
+  <p><strong>What is steering my thinking?</strong></p>
+  <p>Flags the biases a situation invites, and says plainly when it finds none.</p>
+</td>
+</tr>
+<tr>
+<td width="42%" valign="top">
+  <img src="assets/card-model-lens.png" alt="model-lens" width="100%">
+</td>
+<td width="58%" valign="top">
+  <h3>model-lens</h3>
+  <p><strong>Which mental model fits, and where does it stop working?</strong></p>
+  <p>Matches your situation to a mental model, labels what kind of claim it is (law, regularity, heuristic, metaphor), and warns when you stretch it too far.</p>
+</td>
+</tr>
+<tr>
+<td width="42%" valign="top">
+  <img src="assets/card-expert-lens.png" alt="expert-lens" width="100%">
+</td>
+<td width="58%" valign="top">
+  <h3>expert-lens</h3>
+  <p><strong>How would experts who disagree argue this?</strong></p>
+  <p>Three archetypes cross-examine one idea.</p>
+</td>
+</tr>
+<tr>
+<td width="42%" valign="top">
+  <img src="assets/card-failure-lens.png" alt="failure-lens" width="100%">
+</td>
+<td width="58%" valign="top">
+  <h3>failure-lens</h3>
+  <p><strong>How might this fail?</strong></p>
+  <p>Assumes the plan has already collapsed and traces the internal causes back to today's decisions.</p>
+</td>
+</tr>
+<tr>
+<td width="42%" valign="top">
+  <img src="assets/card-fluency-lens.png" alt="fluency-lens" width="100%">
+</td>
+<td width="58%" valign="top">
+  <h3>fluency-lens</h3>
+  <p><strong>Is the way I work with AI ready for what comes next?</strong></p>
+  <p>Audits an AI-assisted workflow against six Ds and sets a 30-day change.</p>
+</td>
+</tr>
+</table>
+
+**other-minds-lens** asks: How would someone with different incentives see this? It reasons from another party's incentives, information, and constraints. Optional, and built last.
 
 fluency-lens builds on the four Ds of the [AI Fluency Framework](https://aifluencyframework.org/) by Rick Dakan and Joseph Feller, developed with Anthropic: Delegation, Description, Discernment, and Diligence. It adds two: Data Decisions and Development.
 
