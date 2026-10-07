@@ -122,9 +122,17 @@ Not built yet, and the names may change. Each one has to pass the same test befo
   <p>Audits an AI-assisted workflow against six Ds and sets a 30-day change.</p>
 </td>
 </tr>
+<tr>
+<td width="42%" valign="top">
+  <img src="assets/card-other-minds-lens.png" alt="other-minds-lens" width="100%">
+</td>
+<td width="58%" valign="top">
+  <h3>other-minds-lens</h3>
+  <p><strong>How would someone with different incentives see this?</strong></p>
+  <p>Reasons from another party's incentives, information, and constraints. Optional, and built last.</p>
+</td>
+</tr>
 </table>
-
-**other-minds-lens** asks: How would someone with different incentives see this? It reasons from another party's incentives, information, and constraints. Optional, and built last.
 
 fluency-lens builds on the four Ds of the [AI Fluency Framework](https://aifluencyframework.org/) by Rick Dakan and Joseph Feller, developed with Anthropic: Delegation, Description, Discernment, and Diligence. It adds two: Data Decisions and Development.
 
