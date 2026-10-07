@@ -136,6 +136,51 @@ Not built yet, and the names may change. Each one has to pass the same test befo
 
 fluency-lens builds on the four Ds of the [AI Fluency Framework](https://aifluencyframework.org/) by Rick Dakan and Joseph Feller, developed with Anthropic: Delegation, Description, Discernment, and Diligence. It adds two: Data Decisions and Development.
 
+### How the Skills fit together
+
+You choose the problem. You use whichever lenses help, in any order, and you can return to the struggle as often as you need. No Skill decides for you. Dashed Skills are planned, not built.
+
+```mermaid
+flowchart LR
+    Hub["OCCAMI NOVACULA<br/>Hub"]
+    Choose["Choose<br/>your problem"]
+
+    subgraph Struggle["Struggle: view it from many angles"]
+        direction TB
+        RL["reasoning-lens<br/>Think it through"]
+        PL["problem-lens<br/>Find a first move"]
+        EV["evaluation-lens<br/>Judge the draft"]
+        BI["bias-lens<br/>Spot what steers you"]
+        MO["model-lens<br/>Pick a mental model"]
+        EX["expert-lens<br/>Hear experts disagree"]
+        FA["failure-lens<br/>Imagine it failing"]
+        FL["fluency-lens<br/>Audit your AI workflow"]
+        OM["other-minds-lens<br/>Take their view"]
+    end
+
+    Revise["Revise<br/>your thinking"]
+    Decide["You decide<br/>and act"]
+
+    Hub --> Choose
+    Choose --> Struggle
+    Struggle --> Revise
+    Revise -->|"Still unclear:<br/>try another lens"| Struggle
+    Revise --> Decide
+
+    classDef hub fill:#f94d13,stroke:#612815,stroke-width:2px,color:#ffffff
+    classDef built fill:#f8f0e1,stroke:#f94d13,stroke-width:2px,color:#2a2422
+    classDef planned fill:#fffdfa,stroke:#b29d8f,stroke-width:1px,color:#6d5a4e,stroke-dasharray: 5 5
+    classDef human fill:#2a2422,stroke:#f94d13,stroke-width:2px,color:#ffffff
+
+    class Hub hub
+    class RL,PL built
+    class EV,BI,MO,EX,FA,FL,OM planned
+    class Choose,Revise,Decide human
+
+    style Struggle fill:#fdeee6,stroke:#f94d13,stroke-width:2px,color:#2a2422
+    linkStyle default stroke:#f94d13,stroke-width:2px
+```
+
 ### What these Skills can't judge
 
 A lens focuses, and it also narrows. Each published Skill says what its lens cannot see. None of them can judge taste: whether a design, a sentence, or an argument feels right. They can show what a draft does. What it should be stays with you.
