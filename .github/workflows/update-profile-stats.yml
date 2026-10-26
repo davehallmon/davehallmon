@@ -20,7 +20,7 @@ jobs:
       - name: Check out profile repository
         uses: actions/checkout@v6
 
-      - name: Generate OCCAMI profile stats
+      - name: Generate profile stats
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
