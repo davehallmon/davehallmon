@@ -8,7 +8,7 @@
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">GitHub activity, Rank: C</title>
+        <title id="titleId">GitHub activity, Rank: C+</title>
         <desc id="descId">Total Commits  : 103, Total PRs: 30, Contributed to (all time): 3</desc>
         <style>
           .header {
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 220.0815123582459;
+        stroke-dashoffset: 218.43884953283947;
       }
     }
   
@@ -135,7 +135,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 220.0815123582459;
+        stroke-dashoffset: 218.43884953283947;
       }
     }
   
